@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			'pattern': 'var(--bg-image)', // Custom background image
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

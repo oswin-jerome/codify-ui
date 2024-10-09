@@ -1,10 +1,13 @@
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-original.png";
 import Image from "next/image";
 
-const Logo = () => {
+interface LogoProps {
+  className?: string;  
+}
+const Logo:React.FC<LogoProps>  = ({className}) => {
   return (
-    <div>
-      <Image src={logo} alt="Logo" />
+    <div >
+      <Image className={className} src={logo} alt="Logo" />
     </div>
   );
 };
