@@ -9,7 +9,6 @@ import { FcGoogle } from "react-icons/fc";
 const RegisterPage = () => {
   return (
 
-    
     <div className="p-4 flex space-y-4 flex-col justify-between">
 
       {/* Logo */}
@@ -69,7 +68,7 @@ const RegisterPage = () => {
           <Label>Confirm Password</Label>
           <Input type="password" required/>
         </div>
-        <Button className="w-full bg-[#4065fa]">Login</Button>
+        <Button className="w-full bg-[#4065fa]">Register</Button>
         
       </form>
 
