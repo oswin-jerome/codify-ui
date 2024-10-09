@@ -64,7 +64,9 @@ const LoginPage = () => {
           <Label>Password</Label>
           <Input type="password" required/>
           <small className="text-muted-foreground">
-            Forgot password? <span className="text-blue-800">reset here</span>
+            Forgot password? <Link href={"/forget-password"} className="text-blue-800">
+          reset here
+        </Link>
           </small>
         </div>
         <Button className="w-full bg-[#4065fa]">Login</Button>
