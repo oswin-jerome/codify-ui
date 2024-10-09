@@ -38,7 +38,7 @@ export default function ForgetPassword() {
       </form>
 
       <hr />
-      {/* Footer */}
+      {/* Footer */} 
       <small className="text-muted-foreground block ">
         
         <Link href={"/login"} className="text-blue-800">
