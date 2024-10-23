@@ -23,7 +23,7 @@ jobs:
 
       - name: Run commands on remote server
         run: |
-          ssh -o StrictHostKeyChecking=no user@remote_host << 'EOF'
+          ssh -o StrictHostKeyChecking=no oswin@home.oswinjerome.in << 'EOF'
             cd /home/oswin/test
             git pull origin main
             
