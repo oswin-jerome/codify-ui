@@ -24,8 +24,7 @@ jobs:
       - name: Run commands on remote server
         run: |
           ssh -o StrictHostKeyChecking=no user@remote_host << 'EOF'
-            cd /path/to/project
+            cd /home/oswin/test
             git pull origin main
-            # Run your commands, e.g., starting the app, building, etc.
-            ./deploy.sh
+            
           EOF
